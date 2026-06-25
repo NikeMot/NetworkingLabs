@@ -1,0 +1,36 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary output
+*.log
+*.tmp
+*.bak
+
+# Local environment files
+.env
+.env.*
+
+# Terraform local state and cache
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Packet captures: store summaries unless a capture is deliberately sanitised
+*.pcap
+*.pcapng
+
+# Local notes and scratch work
+scratch/
+local-only/
