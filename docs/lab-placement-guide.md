@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This guide defines where each networking lab should be placed.
+This guide defines where each networking and cybersecurity lab should be placed.
 
 Every lab must live in the numbered topic folder that matches its main learning objective.
 
@@ -29,13 +29,19 @@ Example:
 | `07-network-services/` | DNS, DHCP/IPAM, NTP, HTTP, reverse proxies, and service dependency labs |
 | `08-monitoring-logging-incident-response/` | Monitoring, logs, incident notes, runbooks, recovery notes, and problem management |
 | `09-network-programmability-automation/` | Python, structured inventory, APIs, Ansible, validation scripts, and repeatable changes |
-| `10-capstone-production-scenarios/` | Integrated scenarios that combine design, troubleshooting, automation, documentation, and operations |
+| `10-cybersecurity-foundations/` | Core defensive security concepts, risk, least privilege, authentication, encryption, and secure design |
+| `11-network-security-monitoring-detection/` | Defensive monitoring, packet evidence, log evidence, baselines, alerts, and incident triage |
+| `12-capstone-production-scenarios/` | Integrated scenarios that combine design, troubleshooting, security, automation, documentation, and operations |
 
 ## Placement rule
 
 If a lab spans multiple areas, place it in the folder that matches the primary learning objective.
 
 Example: a DNS outage lab with packet capture and incident notes belongs in `07-network-services/` because DNS is the main subject.
+
+Example: a lab about TLS certificates belongs in `10-cybersecurity-foundations/` because the main subject is secure communication.
+
+Example: a lab about reviewing logs and packet evidence belongs in `11-network-security-monitoring-detection/` because the main subject is defensive monitoring.
 
 ## Future lab upload rule
 
