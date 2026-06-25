@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains hands-on networking labs for developing junior network engineering, systems administration, SRE, and network automation skills.
+This repository contains hands-on networking and cybersecurity labs for developing junior network engineering, systems administration, SRE, network automation, and defensive security skills.
 
-The lab series moves from packet-level fundamentals to production-style troubleshooting and automation. Each lab should produce evidence: commands, diagrams, packet analysis, configuration, troubleshooting notes, operational decisions, and reflection.
+The lab series moves from packet-level fundamentals to production-style troubleshooting, automation, secure design, and defensive monitoring. Each lab should produce evidence: commands, diagrams, packet analysis, configuration, troubleshooting notes, operational decisions, security decisions, and reflection.
 
 ## Skills covered
 
@@ -19,7 +19,9 @@ The lab series moves from packet-level fundamentals to production-style troubles
 | Network services | Not started | DNS, DHCP/IPAM, NTP, HTTP, reverse proxies |
 | Monitoring, logging, and incident response | Not started | health checks, logs, packet evidence, incidents, runbooks |
 | Network programmability and automation | Not started | Python, YAML/JSON inventory, APIs, Ansible, automation, validation |
-| Capstone production scenarios | Not started | design, build, break, troubleshoot, automate, document, improve |
+| Cybersecurity foundations | Not started | CIA triad, threat modelling, authentication, encryption, least privilege, risk |
+| Network security monitoring and detection | Not started | defensive packet analysis, log review, secure baselines, alerting, evidence handling |
+| Capstone production scenarios | Not started | design, build, break, troubleshoot, secure, automate, document, improve |
 
 ## Repository structure
 
@@ -35,7 +37,9 @@ The lab series moves from packet-level fundamentals to production-style troubles
 | `07-network-services/` | DNS, DHCP/IPAM, NTP, HTTP, reverse proxies, and production service dependencies |
 | `08-monitoring-logging-incident-response/` | Observability, logging, alerting, incidents, problem management, and runbooks |
 | `09-network-programmability-automation/` | Python automation, YAML/JSON inventory, APIs, Ansible, and validation |
-| `10-capstone-production-scenarios/` | Integrated scenarios combining design, troubleshooting, automation, and operations |
+| `10-cybersecurity-foundations/` | Core defensive security concepts that support networking and system administration |
+| `11-network-security-monitoring-detection/` | Defensive monitoring, detection, packet evidence, log evidence, and secure baselines |
+| `12-capstone-production-scenarios/` | Integrated scenarios combining design, troubleshooting, security, automation, and operations |
 | `scripts/` | Reusable helper scripts for validation, health checks, parsing, and reporting |
 
 ## Lab naming convention
@@ -44,8 +48,8 @@ Use lowercase, numbered, hyphenated names.
 
 ```text
 01-network-foundations/lab-01-packet-flow-linux-network-inspection.md
-03-tcp-udp-socket-programming/lab-07-tcp-handshake-and-client-server.md
-09-network-programmability-automation/lab-33-yaml-inventory-network-validation.md
+10-cybersecurity-foundations/lab-49-security-principles-for-network-engineers.md
+11-network-security-monitoring-detection/lab-53-network-security-monitoring-baseline.md
 ```
 
 ## Main references
@@ -55,3 +59,5 @@ Use lowercase, numbered, hyphenated names.
 - Beej's Guide to Network Programming
 - Network Programmability and Automation
 - The Practice of System and Network Administration
+- Bulletproof TLS and PKI
+- Security and cybersecurity books from the Drive security folders
