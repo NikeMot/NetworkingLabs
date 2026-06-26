@@ -1,6 +1,6 @@
 # Lab Output Template
 
-Use this template for every networking lab. Keep it concise, evidence-based, and production-focused.
+Use this template for every networking, cybersecurity, or AI-assisted operations lab. Keep it concise, evidence-based, and production-focused.
 
 ---
 
@@ -39,6 +39,8 @@ List the sources used for the lab.
 | Networking theory | |
 | Socket programming | |
 | Automation | |
+| Cybersecurity | |
+| AI-assisted operations | |
 | Operations / sysadmin practice | |
 
 ---
@@ -134,7 +136,7 @@ This section proves the lab worked.
 
 ## 13. Diagram
 
-Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, or failure/recovery flows.
+Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, AI-assisted analysis flows, or failure/recovery flows.
 
 ```mermaid
 flowchart LR
@@ -170,17 +172,31 @@ If there were no issues, write:
 
 Explain the production relevance of this lab.
 
-Cover operational risk, access control, rollback, audit trail, monitoring, repeatability, documentation, and reliability where relevant.
+Cover operational risk, access control, rollback, audit trail, monitoring, repeatability, documentation, reliability, and AI risk where relevant.
 
 ---
 
-## 17. Final Outcome
+## 17. AI Usage and Validation
+
+Complete this section if AI was used.
+
+| AI use | Output produced | How it was validated | Result |
+| --- | --- | --- | --- |
+| | | | Useful / Incorrect / Incomplete / Not used |
+
+If AI was not used, write:
+
+> AI was not used in this lab.
+
+---
+
+## 18. Final Outcome
 
 State clearly whether the lab was completed.
 
 ---
 
-## 18. What I Learned
+## 19. What I Learned
 
 Write 3-6 bullet points.
 
@@ -190,7 +206,7 @@ Write 3-6 bullet points.
 
 ---
 
-## 19. What I Would Improve in Production
+## 20. What I Would Improve in Production
 
 Write 2-5 bullet points.
 
@@ -199,7 +215,7 @@ Write 2-5 bullet points.
 
 ---
 
-## 20. References Used
+## 21. References Used
 
 | Reference | Used for |
 | --- | --- |
@@ -208,7 +224,7 @@ Write 2-5 bullet points.
 
 ---
 
-## 21. Completion Checklist
+## 22. Completion Checklist
 
 - [ ] Requirements understood
 - [ ] Reference material reviewed
@@ -217,6 +233,7 @@ Write 2-5 bullet points.
 - [ ] Issues documented
 - [ ] Decisions documented
 - [ ] Production considerations documented
+- [ ] AI usage documented if relevant
 - [ ] Diagram added if useful
 - [ ] Files committed with clear messages
 - [ ] Work pushed to GitHub
@@ -224,7 +241,7 @@ Write 2-5 bullet points.
 
 ---
 
-## 22. Reflection Questions
+## 23. Reflection Questions
 
 1. What problem did this lab simulate?
 2. What network layer or service was most important?
@@ -233,4 +250,5 @@ Write 2-5 bullet points.
 5. What would you monitor in production?
 6. What would you document for the next engineer?
 7. What would you automate next?
-8. What would make this lab output look professional?
+8. Did AI help, mislead, or need correction in this lab?
+9. What would make this lab output look professional?
