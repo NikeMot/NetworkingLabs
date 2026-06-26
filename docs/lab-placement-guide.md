@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This guide defines where each networking and cybersecurity lab should be placed.
+This guide defines where each networking, cybersecurity, and AI-assisted operations lab should be placed.
 
 Every lab must live in the numbered topic folder that matches its main learning objective.
 
@@ -31,7 +31,8 @@ Example:
 | `09-network-programmability-automation/` | Python, structured inventory, APIs, Ansible, validation scripts, and repeatable changes |
 | `10-cybersecurity-foundations/` | Core defensive security concepts, risk, least privilege, authentication, encryption, and secure design |
 | `11-network-security-monitoring-detection/` | Defensive monitoring, packet evidence, log evidence, baselines, alerts, and incident triage |
-| `12-capstone-production-scenarios/` | Integrated scenarios that combine design, troubleshooting, security, automation, documentation, and operations |
+| `12-ai-assisted-networking-security-operations/` | AI-assisted troubleshooting, log summarisation, prompt engineering, runbooks, validation, and safe operational use |
+| `13-capstone-production-scenarios/` | Integrated scenarios that combine design, troubleshooting, security, AI-assisted analysis, automation, documentation, and operations |
 
 ## Placement rule
 
@@ -42,6 +43,16 @@ Example: a DNS outage lab with packet capture and incident notes belongs in `07-
 Example: a lab about TLS certificates belongs in `10-cybersecurity-foundations/` because the main subject is secure communication.
 
 Example: a lab about reviewing logs and packet evidence belongs in `11-network-security-monitoring-detection/` because the main subject is defensive monitoring.
+
+Example: a lab about using AI to summarise packet evidence belongs in `12-ai-assisted-networking-security-operations/` because the main subject is AI-assisted operational analysis.
+
+## AI rule
+
+AI can be used inside any lab if it supports the objective, but it must be documented and validated.
+
+Acceptable AI use includes summarising evidence, generating hypotheses, drafting runbooks, comparing configurations, and improving documentation.
+
+AI output is not proof. Final evidence must come from commands, logs, packet captures, configuration, tests, diagrams, or source material.
 
 ## Future lab upload rule
 
