@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains hands-on networking and cybersecurity labs for developing junior network engineering, systems administration, SRE, network automation, and defensive security skills.
+This repository contains hands-on networking, cybersecurity, and AI-assisted operations labs for developing junior network engineering, systems administration, SRE, network automation, defensive security, and practical AI skills.
 
-The lab series moves from packet-level fundamentals to production-style troubleshooting, automation, secure design, and defensive monitoring. Each lab should produce evidence: commands, diagrams, packet analysis, configuration, troubleshooting notes, operational decisions, security decisions, and reflection.
+The lab series moves from packet-level fundamentals to production-style troubleshooting, automation, secure design, defensive monitoring, and AI-assisted operational analysis. Each lab should produce evidence: commands, diagrams, packet analysis, configuration, troubleshooting notes, operational decisions, security decisions, AI-assisted analysis where relevant, and reflection.
 
 ## Skills covered
 
@@ -21,7 +21,8 @@ The lab series moves from packet-level fundamentals to production-style troubles
 | Network programmability and automation | Not started | Python, YAML/JSON inventory, APIs, Ansible, automation, validation |
 | Cybersecurity foundations | Not started | CIA triad, threat modelling, authentication, encryption, least privilege, risk |
 | Network security monitoring and detection | Not started | defensive packet analysis, log review, secure baselines, alerting, evidence handling |
-| Capstone production scenarios | Not started | design, build, break, troubleshoot, secure, automate, document, improve |
+| AI-assisted networking and security operations | Not started | prompt engineering, AI-assisted troubleshooting, log summarisation, runbook generation, validation |
+| Capstone production scenarios | Not started | design, build, break, troubleshoot, secure, automate, analyse, document, improve |
 
 ## Repository structure
 
@@ -39,7 +40,8 @@ The lab series moves from packet-level fundamentals to production-style troubles
 | `09-network-programmability-automation/` | Python automation, YAML/JSON inventory, APIs, Ansible, and validation |
 | `10-cybersecurity-foundations/` | Core defensive security concepts that support networking and system administration |
 | `11-network-security-monitoring-detection/` | Defensive monitoring, detection, packet evidence, log evidence, and secure baselines |
-| `12-capstone-production-scenarios/` | Integrated scenarios combining design, troubleshooting, security, automation, and operations |
+| `12-ai-assisted-networking-security-operations/` | Practical AI use for troubleshooting, analysis, documentation, and validation in network/security operations |
+| `13-capstone-production-scenarios/` | Integrated scenarios combining design, troubleshooting, security, AI-assisted analysis, automation, and operations |
 | `scripts/` | Reusable helper scripts for validation, health checks, parsing, and reporting |
 
 ## Lab naming convention
@@ -49,7 +51,8 @@ Use lowercase, numbered, hyphenated names.
 ```text
 01-network-foundations/lab-01-packet-flow-linux-network-inspection.md
 10-cybersecurity-foundations/lab-49-security-principles-for-network-engineers.md
-11-network-security-monitoring-detection/lab-53-network-security-monitoring-baseline.md
+12-ai-assisted-networking-security-operations/lab-57-ai-assisted-log-analysis-and-validation.md
+13-capstone-production-scenarios/lab-65-final-secure-network-operations-capstone.md
 ```
 
 ## Main references
@@ -60,4 +63,8 @@ Use lowercase, numbered, hyphenated names.
 - Network Programmability and Automation
 - The Practice of System and Network Administration
 - Bulletproof TLS and PKI
+- AI Engineering
+- AI Systems Performance Engineering
+- Hands-On Large Language Models
+- Prompt Engineering for LLMs
 - Security and cybersecurity books from the Drive security folders
