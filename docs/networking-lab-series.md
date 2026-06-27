@@ -30,7 +30,7 @@ For Labs 1-16, Part 1 is based on the assigned full `Computer Networks` chapter.
 
 For Labs 17-23, Part 1 is based on the drill theme.
 
-For Lab 24, Part 1 is the enterprise capstone scenario.
+For Lab 24, Part 1 is the SRE-relevant enterprise capstone scenario.
 
 Part 2 must repeat and apply all topics learned so far, including the current lab. It should produce practical evidence, not just written recall.
 
@@ -44,6 +44,7 @@ The curriculum is designed to build portfolio evidence for:
 - network security and firewall policy reasoning, including Cisco, Juniper, and Palo Alto style concepts
 - network automation, validation, and source-of-truth thinking
 - observability tooling, management tooling, and CMDB strategy
+- SRE-relevant reliability engineering, SLI/SLO thinking, incident response, and toil reduction
 - cost optimisation and solution design
 - consulting-quality documentation and cross-team communication
 
@@ -119,11 +120,11 @@ Every lab must be performed as operational engineering work:
 | 21 | Drill | Segmentation, firewall, NAT, and secure access drill | Repeat Labs 1-21 with emphasis on secure access, firewall policy, and trust boundaries |
 | 22 | Drill | Network automation, inventory, and validation drill | Repeat Labs 1-22 with emphasis on automation, source of truth, and validation |
 | 23 | Drill | Incident, runbook, observability, CMDB, and cloud administration drill | Repeat Labs 1-23 with emphasis on incident handling, observability, CMDB, and cloud operations |
-| 24 | Capstone | Enterprise network operations and tooling strategy capstone | Repeat Labs 1-24 through full capstone integration across design, troubleshooting, security, automation, observability, CMDB, cost, and AI validation |
+| 24 | SRE Capstone | Enterprise network reliability, operations, and tooling strategy capstone | Repeat Labs 1-24 through full SRE-relevant capstone integration across design, troubleshooting, security, automation, observability, CMDB, cost, SLOs, incident response, toil reduction, and AI validation |
 
 ## Capstone rule
 
-Lab 24 is the final capstone. It should require the learner to combine the whole series into one enterprise-style scenario covering design, troubleshooting, security, automation, observability, CMDB/source-of-truth, cost optimisation, and consulting-quality documentation.
+Lab 24 is the final SRE-relevant capstone. It should require the learner to combine the whole series into one enterprise-style reliability scenario covering service ownership, user impact, design, troubleshooting, security, automation, observability, CMDB/source-of-truth, SLI/SLO thinking, error budget reasoning, incident response, toil reduction, cost optimisation, and consulting-quality documentation.
 
 ## Reflection rule
 
