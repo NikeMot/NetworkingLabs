@@ -1,6 +1,6 @@
 # Lab Output Template
 
-Use this template for every networking, cybersecurity, or AI-assisted operations lab. Keep it concise, evidence-based, and production-focused.
+Use this template for every networking, cybersecurity, or AI-assisted operations lab. The learner should focus on solving the lab. Documentation is produced from the learner's evidence, commands, outputs, screenshots/summaries, issues encountered, and answers to seven reflection questions.
 
 ---
 
@@ -57,13 +57,13 @@ List the sources used for the lab.
 
 ## 5. Constraints
 
-List anything you were not allowed to do.
+List anything the lab was not allowed to do.
 
 ---
 
 ## 6. Assumptions
 
-Record any assumptions made before or during the lab.
+Record assumptions made before or during the lab.
 
 ---
 
@@ -89,19 +89,19 @@ example-topic-folder/
 
 ## 9. Implementation Tasks
 
-Use these tasks as a guide, not as a full walkthrough.
+Record the required tasks and the outcome of each task. This section should document what was solved, not provide a copy-paste walkthrough.
 
 ### Task 1
 
-Describe the required outcome.
+Describe the required outcome and final result.
 
 ### Task 2
 
-Describe the required outcome.
+Describe the required outcome and final result.
 
 ### Task 3
 
-Describe the required outcome.
+Describe the required outcome and final result.
 
 ---
 
@@ -198,7 +198,7 @@ State clearly whether the lab was completed.
 
 ## 19. What I Learned
 
-Write 3-6 bullet points.
+Summarise the main learning points from the lab and the learner's reflection answers.
 
 - 
 - 
@@ -208,7 +208,7 @@ Write 3-6 bullet points.
 
 ## 20. What I Would Improve in Production
 
-Write 2-5 bullet points.
+Summarise the production improvements from the lab and the learner's reflection answers.
 
 - 
 - 
@@ -234,21 +234,21 @@ Write 2-5 bullet points.
 - [ ] Decisions documented
 - [ ] Production considerations documented
 - [ ] AI usage documented if relevant
+- [ ] Seven reflection questions answered
 - [ ] Diagram added if useful
-- [ ] Files committed with clear messages
-- [ ] Work pushed to GitHub
+- [ ] File uploaded to the correct topic folder
 - [ ] Evidence reviewed before publishing
 
 ---
 
 ## 23. Reflection Questions
 
+Ask exactly seven reflection questions after the learner has completed the practical work. The learner answers the questions; the answers are then incorporated into the final uploaded lab document.
+
 1. What problem did this lab simulate?
-2. What network layer or service was most important?
-3. What evidence proved the final state?
-4. What failed or was confusing?
-5. What would you monitor in production?
-6. What would you document for the next engineer?
-7. What would you automate next?
-8. Did AI help, mislead, or need correction in this lab?
-9. What would make this lab output look professional?
+2. What was the most important networking, security, automation, or AI concept in this lab?
+3. What evidence proved that your solution worked?
+4. What issue, mistake, or confusing point did you encounter, and how did you resolve it?
+5. What would you monitor, log, or alert on in production?
+6. What would you improve if this were a real production environment?
+7. What did you learn from this lab that you could explain to another engineer?
