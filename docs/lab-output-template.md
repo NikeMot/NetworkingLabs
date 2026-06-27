@@ -2,6 +2,13 @@
 
 Use this template for every networking, cybersecurity, automation, cloud administration, observability, tooling, or AI-assisted operations lab. The learner should focus on solving the lab. Documentation is produced from the learner's evidence, commands, outputs, screenshots/summaries, issues encountered, and answers to seven reflection questions.
 
+Every lab has two required parts:
+
+```text
+Part 1 - New chapter or lab-specific content
+Part 2 - Cumulative repetition of all topics learned so far
+```
+
 ---
 
 # Lab Title
@@ -52,9 +59,9 @@ Reference rule: when a lab references a book chapter, use the full assigned chap
 
 | ID | Requirement | Status |
 | --- | --- | --- |
-| R1 | | Not started / Passed / Failed / Partial |
-| R2 | | Not started / Passed / Failed / Partial |
-| R3 | | Not started / Passed / Failed / Partial |
+| R1 | Complete Part 1 new content task | Not started / Passed / Failed / Partial |
+| R2 | Complete Part 2 cumulative repetition task | Not started / Passed / Failed / Partial |
+| R3 | Capture verification evidence for both parts | Not started / Passed / Failed / Partial |
 
 ---
 
@@ -85,8 +92,8 @@ example-topic-folder/
 
 | File or output | Purpose |
 | --- | --- |
-| | |
-| | |
+| Part 1 evidence | Proves the new content task was completed |
+| Part 2 cumulative evidence | Proves previous topics were repeated and applied |
 
 ---
 
@@ -94,35 +101,33 @@ example-topic-folder/
 
 Record the required tasks and the outcome of each task. This section should document what was solved, not provide a copy-paste walkthrough.
 
-### Task 1
+### Part 1 - New chapter or lab-specific content
 
-Describe the required outcome and final result.
+Describe the new content task, required outcome, and final result.
 
-### Task 2
+### Part 2 - Cumulative repetition of all topics learned so far
 
-Describe the required outcome and final result.
+Describe the cumulative repetition task, the topics repeated, required outcome, and final result.
 
-### Task 3
-
-Describe the required outcome and final result.
+Part 2 must apply all topics learned so far, including the current lab. It should produce evidence, not just written recall.
 
 ---
 
 ## 10. Key Commands Used
 
-| Command | Purpose |
-| --- | --- |
-| | |
-| | |
+| Command | Purpose | Part |
+| --- | --- | --- |
+| | | Part 1 / Part 2 |
+| | | Part 1 / Part 2 |
 
 ---
 
 ## 11. Files Created or Changed
 
-| Path | Purpose |
-| --- | --- |
-| | |
-| | |
+| Path | Purpose | Part |
+| --- | --- | --- |
+| | | Part 1 / Part 2 |
+| | | Part 1 / Part 2 |
 
 ---
 
@@ -130,14 +135,32 @@ Describe the required outcome and final result.
 
 This section proves the lab worked.
 
-| Check | Evidence | Result |
-| --- | --- | --- |
-| | | Passed / Failed |
-| | | Passed / Failed |
+| Check | Evidence | Result | Part |
+| --- | --- | --- | --- |
+| | | Passed / Failed | Part 1 |
+| | | Passed / Failed | Part 2 |
 
 ---
 
-## 13. Diagram
+## 13. Cumulative Repetition Coverage
+
+List the topics repeated in Part 2.
+
+| Previous topic | How it was repeated | Evidence |
+| --- | --- | --- |
+| Layering / packet flow | | |
+| Physical / link / LAN concepts | | |
+| IP addressing / routing / NAT | | |
+| Transport / sockets / service exposure | | |
+| DNS / HTTP / TLS / application dependency | | |
+| Security / firewall / monitoring | | |
+| Automation / source of truth / observability | | |
+
+Remove rows that are not yet applicable for early labs.
+
+---
+
+## 14. Diagram
 
 Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, AI-assisted analysis flows, source-of-truth models, firewall zone models, or failure/recovery flows.
 
@@ -150,11 +173,11 @@ flowchart LR
 
 ---
 
-## 14. Issues Encountered
+## 15. Issues Encountered
 
-| Issue | Cause | Fix |
-| --- | --- | --- |
-| | | |
+| Issue | Cause | Fix | Part |
+| --- | --- | --- | --- |
+| | | | Part 1 / Part 2 |
 
 If there were no issues, write:
 
@@ -162,16 +185,16 @@ If there were no issues, write:
 
 ---
 
-## 15. Decisions Made
+## 16. Decisions Made
 
-| Decision | Reason |
-| --- | --- |
-| | |
-| | |
+| Decision | Reason | Part |
+| --- | --- | --- |
+| | | Part 1 / Part 2 |
+| | | Part 1 / Part 2 |
 
 ---
 
-## 16. Security and Production Considerations
+## 17. Security and Production Considerations
 
 Explain the production relevance of this lab.
 
@@ -179,7 +202,7 @@ Cover operational risk, access control, firewall policy, segmentation, rollback,
 
 ---
 
-## 17. Tooling, Observability, and Source-of-Truth Notes
+## 18. Tooling, Observability, and Source-of-Truth Notes
 
 Complete this section when relevant.
 
@@ -194,13 +217,13 @@ Complete this section when relevant.
 
 ---
 
-## 18. AI Usage and Validation
+## 19. AI Usage and Validation
 
 Complete this section if AI was used.
 
-| AI use | Output produced | How it was validated | Result |
-| --- | --- | --- | --- |
-| | | | Useful / Incorrect / Incomplete / Not used |
+| AI use | Output produced | How it was validated | Result | Part |
+| --- | --- | --- | --- | --- |
+| | | | Useful / Incorrect / Incomplete / Not used | Part 1 / Part 2 |
 
 If AI was not used, write:
 
@@ -208,13 +231,13 @@ If AI was not used, write:
 
 ---
 
-## 19. Final Outcome
+## 20. Final Outcome
 
-State clearly whether the lab was completed.
+State clearly whether both Part 1 and Part 2 were completed.
 
 ---
 
-## 20. What I Learned
+## 21. What I Learned
 
 Summarise the main learning points from the lab and the learner's reflection answers.
 
@@ -224,7 +247,7 @@ Summarise the main learning points from the lab and the learner's reflection ans
 
 ---
 
-## 21. What I Would Improve in Production
+## 22. What I Would Improve in Production
 
 Summarise the production improvements from the lab and the learner's reflection answers.
 
@@ -233,7 +256,7 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 22. References Used
+## 23. References Used
 
 | Reference | Used for |
 | --- | --- |
@@ -242,14 +265,16 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 23. Completion Checklist
+## 24. Completion Checklist
 
 - [ ] Requirements understood
 - [ ] Full assigned chapter or reference section reviewed
-- [ ] Implementation completed
-- [ ] Verification evidence captured
+- [ ] Part 1 new content completed
+- [ ] Part 2 cumulative repetition completed
+- [ ] Verification evidence captured for both parts
 - [ ] Issues documented
 - [ ] Decisions documented
+- [ ] Cumulative repetition coverage documented
 - [ ] Security and production considerations documented
 - [ ] Tooling, observability, and source-of-truth notes included where relevant
 - [ ] AI usage documented if relevant
@@ -260,13 +285,13 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 24. Reflection Questions
+## 25. Reflection Questions
 
 Ask exactly seven reflection questions after the learner has completed the practical work. The learner answers the questions; the answers are then incorporated into the final uploaded lab document.
 
-1. What problem did this lab simulate?
-2. What was the most important networking, security, automation, cloud, observability, tooling, or AI concept in this lab?
-3. What evidence proved that your solution worked?
+1. What problem did Part 1 of this lab simulate, and what new concept did it introduce?
+2. What earlier topics did Part 2 force you to repeat, and which one felt weakest?
+3. What evidence proved that both parts worked?
 4. What issue, mistake, or confusing point did you encounter, and how did you resolve it?
 5. What would you monitor, log, or alert on in production?
 6. What would you improve if this were a real production environment?
