@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This guide defines where each networking, cybersecurity, and AI-assisted operations lab should be placed.
+This guide defines where each lab in the 24-lab series should be placed.
 
-Every lab must live in the numbered topic folder that matches its main learning objective.
+Every lab must live in the chapter folder or drill folder that matches its lab number.
 
 ## Naming convention
 
@@ -13,47 +13,44 @@ Use lowercase, numbered, hyphenated names.
 Example:
 
 ```text
-01-network-foundations/lab-01-packet-flow-linux-network-inspection.md
+01-chapter-01-introduction/lab-01-network-models-and-packet-flow.md
+06-chapter-06-transport-layer/lab-12-tcp-udp-socket-service.md
+09-drill-labs/lab-24-final-integrated-drill.md
 ```
 
-## Topic folders
+## Folder placement
 
-| Folder | Use for |
+| Folder | Labs | Use for |
+| --- | ---: | --- |
+| `01-chapter-01-introduction/` | 1-2 | `Computer Networks` Chapter 1: introduction, network uses, network types, protocols, reference models, packet flow, and baseline troubleshooting |
+| `02-chapter-02-physical-layer/` | 3-4 | Chapter 2: media, signalling, bandwidth, latency, wireless, access networks, and physical-layer measurement |
+| `03-chapter-03-data-link-layer/` | 5-6 | Chapter 3: framing, error control, flow control, ARP/MAC evidence, and link reliability |
+| `04-chapter-04-medium-access-control-sublayer/` | 7-8 | Chapter 4: Ethernet, Wi-Fi, switching, bridges, VLANs, shared media, and LAN segmentation |
+| `05-chapter-05-network-layer/` | 9-10 | Chapter 5: IP addressing, forwarding, routing, NAT, firewalls, and cloud network design |
+| `06-chapter-06-transport-layer/` | 11-12 | Chapter 6: TCP, UDP, ports, sockets, service exposure, connection state, and reliability |
+| `07-chapter-07-application-layer/` | 13-14 | Chapter 7: DNS, HTTP, TLS, application dependencies, proxying, APIs, logs, and service health |
+| `08-chapter-08-network-security/` | 15-16 | Chapter 8: encryption, TLS/PKI, authentication, access control, monitoring, and defensive evidence |
+| `09-drill-labs/` | 17-24 | Integrated practice across all chapters plus Beej, automation, security, cloud/admin practice, AI-assisted analysis, and operations |
+
+## Supporting content placement
+
+Supporting content is integrated inside the 24 labs rather than separated into its own folder.
+
+| Supporting source or topic | How it is used |
 | --- | --- |
-| `01-network-foundations/` | Network models, packet flow, encapsulation, reachability, and baseline troubleshooting |
-| `02-linux-network-troubleshooting/` | Linux network commands, local routes, host diagnostics, socket state, and packet inspection |
-| `03-tcp-udp-socket-programming/` | TCP and UDP application behaviour, client/server exercises, ports, and message handling |
-| `04-ip-addressing-routing/` | Subnetting, gateways, static routes, path selection, and routed topologies |
-| `05-switching-vlans-segmentation/` | Switching concepts, VLANs, trunks, segmentation, and inter-VLAN routing |
-| `06-firewalls-nat-access-control/` | Filtering, NAT, traffic rules, service exposure, and reachability validation |
-| `07-network-services/` | DNS, DHCP/IPAM, NTP, HTTP, reverse proxies, and service dependency labs |
-| `08-monitoring-logging-incident-response/` | Monitoring, logs, incident notes, runbooks, recovery notes, and problem management |
-| `09-network-programmability-automation/` | Python, structured inventory, APIs, Ansible, validation scripts, and repeatable changes |
-| `10-cybersecurity-foundations/` | Core defensive security concepts, risk, least privilege, authentication, encryption, and secure design |
-| `11-network-security-monitoring-detection/` | Defensive monitoring, packet evidence, log evidence, baselines, alerts, and incident triage |
-| `12-ai-assisted-networking-security-operations/` | AI-assisted troubleshooting, log summarisation, prompt engineering, runbooks, validation, and safe operational use |
-| `13-capstone-production-scenarios/` | Integrated scenarios that combine design, troubleshooting, security, AI-assisted analysis, automation, documentation, and operations |
-
-## Placement rule
-
-If a lab spans multiple areas, place it in the folder that matches the primary learning objective.
-
-Example: a DNS outage lab with packet capture and incident notes belongs in `07-network-services/` because DNS is the main subject.
-
-Example: a lab about TLS certificates belongs in `10-cybersecurity-foundations/` because the main subject is secure communication.
-
-Example: a lab about reviewing logs and packet evidence belongs in `11-network-security-monitoring-detection/` because the main subject is defensive monitoring.
-
-Example: a lab about using AI to summarise packet evidence belongs in `12-ai-assisted-networking-security-operations/` because the main subject is AI-assisted operational analysis.
+| `Beej's Guide to Network Programming` | Socket and service labs, especially Labs 11-12 and Drill Lab 19 |
+| `Network Programmability and Automation` | Automation, inventory, validation, and repeatable checks, especially Labs 22 and 24 |
+| `The Practice of System and Network Administration` | Expected state, change control, evidence, monitoring, runbooks, and operational documentation in every lab |
+| `The Practice of Cloud Administration` | Cloud/admin mindset: controlled changes, cost, reliability, access, rollback, monitoring, and ownership in every lab |
+| Cybersecurity books and `Bulletproof TLS and PKI` | Security design, TLS/PKI, access control, monitoring, and defensive evidence in Labs 13-16 and Drills 20-21 |
+| AI books | AI-assisted troubleshooting, summarisation, hypothesis generation, runbook drafting, and validation in relevant labs and Lab 24 |
 
 ## AI rule
 
 AI can be used inside any lab if it supports the objective, but it must be documented and validated.
 
-Acceptable AI use includes summarising evidence, generating hypotheses, drafting runbooks, comparing configurations, and improving documentation.
-
 AI output is not proof. Final evidence must come from commands, logs, packet captures, configuration, tests, diagrams, or source material.
 
 ## Future lab upload rule
 
-When a new lab is created, upload it directly to the correct topic folder using the naming convention above.
+When a new lab is created, upload it directly to the correct chapter or drill folder using the naming convention above.
