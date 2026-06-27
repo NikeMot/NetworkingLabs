@@ -13,6 +13,7 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 | `lab-completion-workflow.md` | Defines the solve-first workflow and seven-question reflection rule |
 | `networking-lab-series.md` | Summarises the 24-lab Computer Networks based curriculum |
 | `source-coverage-map.md` | Shows how the requested books and topics are covered across the 24 labs |
+| `target-role-readiness-map.md` | Maps the curriculum to enterprise networking, automation, observability, tooling, and consulting role requirements |
 
 ## Rule
 
