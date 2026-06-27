@@ -4,7 +4,7 @@
 
 This repository contains a 24-lab networking, cybersecurity, automation, cloud-operations, and AI-assisted operations curriculum.
 
-The curriculum is based primarily on the eight chapters of `Computer Networks` by Tanenbaum, Feamster, and Wetherall. Each chapter becomes two practical labs, creating 16 chapter labs. After those, there are 7 drill labs and 1 final capstone.
+The curriculum is based primarily on the eight chapters of `Computer Networks` by Tanenbaum, Feamster, and Wetherall. Each chapter becomes two practical labs, creating 16 chapter labs. After those, there are 7 drill labs and 1 final SRE-relevant capstone.
 
 Every lab has two required parts:
 
@@ -13,15 +13,17 @@ Part 1 - New chapter or lab-specific content
 Part 2 - Cumulative repetition of all topics learned so far
 ```
 
-The learner solves both parts. Documentation is produced from the learner's evidence, command output, files created or changed, issues encountered, and answers to seven reflection questions.
+Every lab must also include controlled fault and recovery work inside an authorised lab environment. The learner must create a safe lab failure, capture evidence, diagnose it, restore the working state, validate recovery, and document prevention.
+
+The learner solves both parts and the controlled fault/recovery task. Documentation is produced from the learner's evidence, command output, files created or changed, issues encountered, and answers to seven reflection questions.
 
 ## Curriculum structure
 
 | Section | Labs | Basis |
 | --- | ---: | --- |
-| Chapter labs | 1-16 | Two labs for each of the eight chapters in `Computer Networks`; each lab also includes cumulative repetition |
-| Drill labs | 17-23 | Integrated repetition across networking, security, automation, cloud/admin practice, and AI-assisted operations |
-| Capstone | 24 | Final enterprise network operations and tooling strategy scenario with full-curriculum integration |
+| Chapter labs | 1-16 | Two labs for each of the eight chapters in `Computer Networks`; each lab also includes cumulative repetition and controlled fault/recovery work |
+| Drill labs | 17-23 | Integrated repetition across networking, security, automation, cloud/admin practice, AI-assisted operations, and controlled fault/recovery work |
+| Capstone | 24 | Final SRE-relevant enterprise network reliability, operations, and tooling strategy scenario with full-curriculum integration |
 
 ## Repository structure
 
@@ -36,7 +38,7 @@ The learner solves both parts. Documentation is produced from the learner's evid
 | `06-chapter-06-transport-layer/` | Labs 11-12: TCP, UDP, ports, sockets, connection state, congestion, and service exposure |
 | `07-chapter-07-application-layer/` | Labs 13-14: DNS, HTTP, TLS, application dependencies, service health, logs, and proxies |
 | `08-chapter-08-network-security/` | Labs 15-16: encryption, TLS/PKI, authentication, access control, monitoring, and defensive evidence |
-| `09-drill-labs/` | Labs 17-23 plus Lab 24 capstone |
+| `09-drill-labs/` | Labs 17-23 plus Lab 24 SRE capstone |
 | `scripts/` | Reusable helper scripts for validation, health checks, parsing, reporting, and AI-assisted tooling |
 
 ## Main references
@@ -65,8 +67,11 @@ Every lab should be performed like operational engineering work:
 
 - define the expected state
 - make a controlled change
-- collect evidence
-- validate the result
+- introduce a safe lab fault
+- collect failure evidence
+- diagnose the fault
+- restore the working state
+- validate recovery
 - document issues and fixes
 - repeat and apply all topics learned so far
 - consider security, reliability, monitoring, rollback, and cloud/admin implications
@@ -81,5 +86,5 @@ Examples:
 ```text
 01-chapter-01-introduction/lab-01-network-models-and-packet-flow.md
 06-chapter-06-transport-layer/lab-12-tcp-udp-socket-service.md
-09-drill-labs/lab-24-enterprise-network-operations-tooling-capstone.md
+09-drill-labs/lab-24-enterprise-network-reliability-sre-capstone.md
 ```
