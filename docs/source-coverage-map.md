@@ -13,7 +13,8 @@ The rule is:
 ```text
 1 book chapter = 2 practical labs
 8 chapters = 16 chapter labs
-8 drill labs = integrated repetition
+7 drill labs = integrated repetition
+1 final capstone = enterprise portfolio scenario
 24 labs total
 ```
 
@@ -34,8 +35,8 @@ The rule is:
 
 | Source or topic | Covered in |
 | --- | --- |
-| `Beej's Guide to Network Programming` | Labs 11-12, Drill Lab 19, Drill Lab 24 |
-| `Network Programmability and Automation` | Labs 9-10, Drill Lab 22, Drill Lab 24 |
+| `Beej's Guide to Network Programming` | Labs 11-12, Drill Lab 19, Capstone Lab 24 |
+| `Network Programmability and Automation` | Labs 9-10, Drill Lab 22, Capstone Lab 24 |
 | `The Practice of System and Network Administration` | Method used in every lab; explicit focus in Labs 2, 14, 16, 23, 24 |
 | `The Practice of Cloud Administration` | Method used in every lab; explicit focus in Labs 3, 4, 9, 10, 21, 23, 24 |
 | `Computer Networking: A Top-Down Approach` | Labs 1, 2, 13, 14, 20 |
@@ -44,11 +45,27 @@ The rule is:
 | AI Engineering sources | Labs 14, 16, 22, 23, 24 |
 | Prompt engineering / LLM sources | Labs 14, 16, 22, 24 |
 
-## Drill lab purpose
+## Cybersecurity track coverage
 
-The eight drill labs are not new theory chapters. They are repetition labs that force the learner to recombine earlier skills under pressure.
+A separate detailed cybersecurity track was not provided by the user. The integrated cybersecurity track is based on the user's requirement to include cybersecurity with networking and the available security sources in Drive.
 
-| Drill lab | Purpose |
+| Cybersecurity area | Covered in |
+| --- | --- |
+| Security principles and CIA triad | Labs 15-16, 21, 24 |
+| Threat modelling and trust boundaries | Labs 8, 10, 15, 21, 24 |
+| Segmentation and least privilege | Labs 7-8, 10, 15, 21, 24 |
+| NAT, firewall rules, and enterprise firewall policy | Labs 10, 15, 21, 24 |
+| Cisco, Juniper, and Palo Alto style firewall concepts | Labs 10, 15, 21, 24 |
+| TLS, certificates, and PKI | Labs 13, 15, 20, 24 |
+| Authentication and authorisation | Labs 15-16, 24 |
+| Packet and log evidence | Labs 5, 11, 14, 16, 18, 24 |
+| Network security monitoring and incident triage | Labs 16, 21, 23, 24 |
+
+## Drill and capstone purpose
+
+Labs 17-23 are repetition labs that force the learner to recombine earlier skills under pressure. Lab 24 is the final capstone.
+
+| Lab | Purpose |
 | ---: | --- |
 | 17 | Subnetting, routing, and path-selection repetition |
 | 18 | Layered troubleshooting and packet evidence repetition |
@@ -56,8 +73,8 @@ The eight drill labs are not new theory chapters. They are repetition labs that 
 | 20 | DNS, HTTP, TLS, and application dependency repetition |
 | 21 | Segmentation, firewall, NAT, and secure access repetition |
 | 22 | Network automation, inventory, and validation repetition |
-| 23 | Incident, runbook, and cloud administration repetition |
-| 24 | Final integrated AI-assisted network operations repetition |
+| 23 | Incident, runbook, observability, CMDB, and cloud administration repetition |
+| 24 | Final enterprise network operations and tooling strategy capstone |
 
 ## Completion standard
 
