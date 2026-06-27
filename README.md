@@ -6,15 +6,22 @@ This repository contains a 24-lab networking, cybersecurity, automation, cloud-o
 
 The curriculum is based primarily on the eight chapters of `Computer Networks` by Tanenbaum, Feamster, and Wetherall. Each chapter becomes two practical labs, creating 16 chapter labs. After those, there are 7 drill labs and 1 final capstone.
 
-The learner solves the labs. Documentation is produced from the learner's evidence, command output, files created or changed, issues encountered, and answers to seven reflection questions.
+Every lab has two required parts:
+
+```text
+Part 1 - New chapter or lab-specific content
+Part 2 - Cumulative repetition of all topics learned so far
+```
+
+The learner solves both parts. Documentation is produced from the learner's evidence, command output, files created or changed, issues encountered, and answers to seven reflection questions.
 
 ## Curriculum structure
 
 | Section | Labs | Basis |
 | --- | ---: | --- |
-| Chapter labs | 1-16 | Two labs for each of the eight chapters in `Computer Networks` |
+| Chapter labs | 1-16 | Two labs for each of the eight chapters in `Computer Networks`; each lab also includes cumulative repetition |
 | Drill labs | 17-23 | Integrated repetition across networking, security, automation, cloud/admin practice, and AI-assisted operations |
-| Capstone | 24 | Final enterprise network operations and tooling strategy scenario |
+| Capstone | 24 | Final enterprise network operations and tooling strategy scenario with full-curriculum integration |
 
 ## Repository structure
 
@@ -61,6 +68,7 @@ Every lab should be performed like operational engineering work:
 - collect evidence
 - validate the result
 - document issues and fixes
+- repeat and apply all topics learned so far
 - consider security, reliability, monitoring, rollback, and cloud/admin implications
 - use AI only as an assistant and validate its output with primary evidence
 
