@@ -1,10 +1,10 @@
-# 09 Drill Labs and Capstone
+# 09 Drill Labs and SRE Capstone
 
 Use this folder for Labs 17-24.
 
 Labs 17-23 are integrated drills designed to practise the whole curriculum after the 16 chapter-based labs are complete.
 
-Lab 24 is the final capstone.
+Lab 24 is the final SRE-relevant capstone.
 
 ## Drill coverage
 
@@ -18,9 +18,11 @@ Lab 24 is the final capstone.
 
 ## Capstone
 
-- Lab 24: enterprise network operations and tooling strategy capstone
+- Lab 24: enterprise network reliability, operations, and tooling strategy capstone
 
 The capstone should combine all eight `Computer Networks` chapters with cybersecurity, automation, observability, CMDB/source-of-truth, cost optimisation, firewall policy reasoning, AI-assisted analysis, and consulting-quality documentation.
+
+It must also demonstrate SRE judgement: service ownership, user impact, SLIs, SLOs, error budget reasoning, incident response, alerting, runbooks, rollback, toil reduction, and reliability/cost trade-offs.
 
 ## Supporting material
 
