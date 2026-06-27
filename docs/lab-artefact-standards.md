@@ -220,21 +220,32 @@ When AI is used, record:
 
 AI output is not evidence by itself.
 
-## Capstone standards
+## SRE capstone standards
 
-Lab 24 should include all major artefact types:
+Lab 24 should be SRE-relevant and include all major artefact types:
 
-- enterprise scenario
+- enterprise reliability scenario
+- user-facing impact statement
+- service ownership model
 - current-state assessment
 - target-state design
 - topology diagram
 - traffic-flow diagram
+- service dependency map
+- failure-mode analysis
+- SLI/SLO table
+- error budget notes
+- incident timeline
+- troubleshooting evidence
+- packet, log, and metric evidence summary
 - security model
 - firewall policy model
 - monitoring and observability strategy
 - CMDB/source-of-truth model
 - automation and validation plan
-- cost optimisation notes
+- toil reduction plan
+- rollback or safe-change plan
+- cost and reliability trade-off notes
 - implementation roadmap
 - risks and assumptions
 - executive summary
@@ -242,3 +253,5 @@ Lab 24 should include all major artefact types:
 - Part 1 capstone implementation evidence
 - Part 2 full-curriculum repetition evidence
 - seven reflection answers
+
+Lab 24 should demonstrate both network engineering competence and SRE judgement.
