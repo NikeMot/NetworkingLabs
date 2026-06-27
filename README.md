@@ -4,7 +4,7 @@
 
 This repository contains a 24-lab networking, cybersecurity, automation, cloud-operations, and AI-assisted operations curriculum.
 
-The curriculum is based primarily on the eight chapters of `Computer Networks` by Tanenbaum, Feamster, and Wetherall. Each chapter becomes two practical labs, creating 16 chapter labs. After those, there are 8 drill labs designed to reinforce everything learned.
+The curriculum is based primarily on the eight chapters of `Computer Networks` by Tanenbaum, Feamster, and Wetherall. Each chapter becomes two practical labs, creating 16 chapter labs. After those, there are 7 drill labs and 1 final capstone.
 
 The learner solves the labs. Documentation is produced from the learner's evidence, command output, files created or changed, issues encountered, and answers to seven reflection questions.
 
@@ -13,7 +13,8 @@ The learner solves the labs. Documentation is produced from the learner's eviden
 | Section | Labs | Basis |
 | --- | ---: | --- |
 | Chapter labs | 1-16 | Two labs for each of the eight chapters in `Computer Networks` |
-| Drill labs | 17-24 | Integrated repetition across networking, security, automation, cloud/admin practice, and AI-assisted operations |
+| Drill labs | 17-23 | Integrated repetition across networking, security, automation, cloud/admin practice, and AI-assisted operations |
+| Capstone | 24 | Final enterprise network operations and tooling strategy scenario |
 
 ## Repository structure
 
@@ -28,7 +29,7 @@ The learner solves the labs. Documentation is produced from the learner's eviden
 | `06-chapter-06-transport-layer/` | Labs 11-12: TCP, UDP, ports, sockets, connection state, congestion, and service exposure |
 | `07-chapter-07-application-layer/` | Labs 13-14: DNS, HTTP, TLS, application dependencies, service health, logs, and proxies |
 | `08-chapter-08-network-security/` | Labs 15-16: encryption, TLS/PKI, authentication, access control, monitoring, and defensive evidence |
-| `09-drill-labs/` | Labs 17-24: repeated challenge labs across the whole curriculum |
+| `09-drill-labs/` | Labs 17-23 plus Lab 24 capstone |
 | `scripts/` | Reusable helper scripts for validation, health checks, parsing, reporting, and AI-assisted tooling |
 
 ## Main references
@@ -72,5 +73,5 @@ Examples:
 ```text
 01-chapter-01-introduction/lab-01-network-models-and-packet-flow.md
 06-chapter-06-transport-layer/lab-12-tcp-udp-socket-service.md
-09-drill-labs/lab-24-final-integrated-drill.md
+09-drill-labs/lab-24-enterprise-network-operations-tooling-capstone.md
 ```
