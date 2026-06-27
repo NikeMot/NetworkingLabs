@@ -9,6 +9,8 @@ Part 1 - New chapter or lab-specific content
 Part 2 - Cumulative repetition of all topics learned so far
 ```
 
+Every lab must also include controlled break/fix work inside an authorised lab environment.
+
 ---
 
 # Lab Title
@@ -61,13 +63,17 @@ Reference rule: when a lab references a book chapter, use the full assigned chap
 | --- | --- | --- |
 | R1 | Complete Part 1 new content task | Not started / Passed / Failed / Partial |
 | R2 | Complete Part 2 cumulative repetition task | Not started / Passed / Failed / Partial |
-| R3 | Capture verification evidence for both parts | Not started / Passed / Failed / Partial |
+| R3 | Introduce a controlled break/fix failure | Not started / Passed / Failed / Partial |
+| R4 | Diagnose, fix, and validate recovery | Not started / Passed / Failed / Partial |
+| R5 | Capture verification evidence for both parts | Not started / Passed / Failed / Partial |
 
 ---
 
 ## 5. Constraints
 
 List anything the lab was not allowed to do.
+
+Break/fix work must stay inside an authorised lab environment.
 
 ---
 
@@ -94,6 +100,7 @@ example-topic-folder/
 | --- | --- |
 | Part 1 evidence | Proves the new content task was completed |
 | Part 2 cumulative evidence | Proves previous topics were repeated and applied |
+| Break/fix evidence | Proves the learner broke, diagnosed, fixed, and validated recovery |
 
 ---
 
@@ -113,25 +120,44 @@ Part 2 must apply all topics learned so far, including the current lab. It shoul
 
 ---
 
-## 10. Key Commands Used
+## 10. Break/Fix Record
+
+Every lab must include a controlled failure and recovery.
+
+| Stage | Notes / evidence |
+| --- | --- |
+| Expected healthy state | |
+| Controlled failure introduced | |
+| Symptoms observed | |
+| Initial hypothesis | |
+| Diagnostic checks performed | |
+| Evidence collected | |
+| Root cause or likely cause | |
+| Fix applied | |
+| Recovery validation | |
+| Prevention / monitoring / runbook improvement | |
+
+---
+
+## 11. Key Commands Used
 
 | Command | Purpose | Part |
 | --- | --- | --- |
-| | | Part 1 / Part 2 |
-| | | Part 1 / Part 2 |
+| | | Part 1 / Part 2 / Break-fix |
+| | | Part 1 / Part 2 / Break-fix |
 
 ---
 
-## 11. Files Created or Changed
+## 12. Files Created or Changed
 
 | Path | Purpose | Part |
 | --- | --- | --- |
-| | | Part 1 / Part 2 |
-| | | Part 1 / Part 2 |
+| | | Part 1 / Part 2 / Break-fix |
+| | | Part 1 / Part 2 / Break-fix |
 
 ---
 
-## 12. Verification Evidence
+## 13. Verification Evidence
 
 This section proves the lab worked.
 
@@ -139,10 +165,11 @@ This section proves the lab worked.
 | --- | --- | --- | --- |
 | | | Passed / Failed | Part 1 |
 | | | Passed / Failed | Part 2 |
+| | | Passed / Failed | Break-fix recovery |
 
 ---
 
-## 13. Cumulative Repetition Coverage
+## 14. Cumulative Repetition Coverage
 
 List the topics repeated in Part 2.
 
@@ -160,24 +187,25 @@ Remove rows that are not yet applicable for early labs.
 
 ---
 
-## 14. Diagram
+## 15. Diagram
 
-Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, AI-assisted analysis flows, source-of-truth models, firewall zone models, or failure/recovery flows.
+Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, AI-assisted analysis flows, source-of-truth models, firewall zone models, break/fix flows, or failure/recovery flows.
 
 ```mermaid
 flowchart LR
-    A[Client] --> B[Network Path]
-    B --> C[Service]
-    C --> D[Verification]
+    A[Healthy State] --> B[Controlled Failure]
+    B --> C[Diagnosis]
+    C --> D[Fix]
+    D --> E[Validation]
 ```
 
 ---
 
-## 15. Issues Encountered
+## 16. Issues Encountered
 
 | Issue | Cause | Fix | Part |
 | --- | --- | --- | --- |
-| | | | Part 1 / Part 2 |
+| | | | Part 1 / Part 2 / Break-fix |
 
 If there were no issues, write:
 
@@ -185,24 +213,24 @@ If there were no issues, write:
 
 ---
 
-## 16. Decisions Made
+## 17. Decisions Made
 
 | Decision | Reason | Part |
 | --- | --- | --- |
-| | | Part 1 / Part 2 |
-| | | Part 1 / Part 2 |
+| | | Part 1 / Part 2 / Break-fix |
+| | | Part 1 / Part 2 / Break-fix |
 
 ---
 
-## 17. Security and Production Considerations
+## 18. Security and Production Considerations
 
 Explain the production relevance of this lab.
 
-Cover operational risk, access control, firewall policy, segmentation, rollback, audit trail, monitoring, repeatability, documentation, reliability, cost, cloud/admin impact, and AI risk where relevant.
+Cover operational risk, access control, firewall policy, segmentation, rollback, audit trail, monitoring, repeatability, documentation, reliability, cost, cloud/admin impact, break/fix safety, and AI risk where relevant.
 
 ---
 
-## 18. Tooling, Observability, and Source-of-Truth Notes
+## 19. Tooling, Observability, and Source-of-Truth Notes
 
 Complete this section when relevant.
 
@@ -214,16 +242,17 @@ Complete this section when relevant.
 | Logs / packet evidence | |
 | CMDB or source-of-truth impact | |
 | Automation opportunity | |
+| Break/fix detection opportunity | |
 
 ---
 
-## 19. AI Usage and Validation
+## 20. AI Usage and Validation
 
 Complete this section if AI was used.
 
 | AI use | Output produced | How it was validated | Result | Part |
 | --- | --- | --- | --- | --- |
-| | | | Useful / Incorrect / Incomplete / Not used | Part 1 / Part 2 |
+| | | | Useful / Incorrect / Incomplete / Not used | Part 1 / Part 2 / Break-fix |
 
 If AI was not used, write:
 
@@ -231,13 +260,13 @@ If AI was not used, write:
 
 ---
 
-## 20. Final Outcome
+## 21. Final Outcome
 
-State clearly whether both Part 1 and Part 2 were completed.
+State clearly whether Part 1, Part 2, and break/fix recovery were completed.
 
 ---
 
-## 21. What I Learned
+## 22. What I Learned
 
 Summarise the main learning points from the lab and the learner's reflection answers.
 
@@ -247,7 +276,7 @@ Summarise the main learning points from the lab and the learner's reflection ans
 
 ---
 
-## 22. What I Would Improve in Production
+## 23. What I Would Improve in Production
 
 Summarise the production improvements from the lab and the learner's reflection answers.
 
@@ -256,7 +285,7 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 23. References Used
+## 24. References Used
 
 | Reference | Used for |
 | --- | --- |
@@ -265,13 +294,16 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 24. Completion Checklist
+## 25. Completion Checklist
 
 - [ ] Requirements understood
 - [ ] Full assigned chapter or reference section reviewed
 - [ ] Part 1 new content completed
 - [ ] Part 2 cumulative repetition completed
-- [ ] Verification evidence captured for both parts
+- [ ] Controlled failure introduced safely
+- [ ] Break/fix diagnosis completed
+- [ ] Fix applied and recovery validated
+- [ ] Verification evidence captured for both parts and recovery
 - [ ] Issues documented
 - [ ] Decisions documented
 - [ ] Cumulative repetition coverage documented
@@ -285,14 +317,14 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 25. Reflection Questions
+## 26. Reflection Questions
 
 Ask exactly seven reflection questions after the learner has completed the practical work. The learner answers the questions; the answers are then incorporated into the final uploaded lab document.
 
 1. What problem did Part 1 of this lab simulate, and what new concept did it introduce?
 2. What earlier topics did Part 2 force you to repeat, and which one felt weakest?
-3. What evidence proved that both parts worked?
+3. What did you break, what symptoms appeared, and what evidence proved the fix worked?
 4. What issue, mistake, or confusing point did you encounter, and how did you resolve it?
-5. What would you monitor, log, or alert on in production?
+5. What would you monitor, log, or alert on in production to catch this failure earlier?
 6. What would you improve if this were a real production environment?
 7. What did you learn from this lab that you could explain to another engineer?
