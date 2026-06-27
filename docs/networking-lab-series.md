@@ -11,7 +11,11 @@ The first 16 labs are based on `Computer Networks`, Sixth Edition, Global Editio
 8 chapters = 16 labs
 ```
 
-After the 16 chapter labs, there are 8 drill labs to practise and combine everything learned.
+After the 16 chapter labs, there are 7 drill labs and 1 final capstone lab.
+
+```text
+16 chapter labs + 7 drill labs + 1 capstone = 24 labs total
+```
 
 ## Target job alignment
 
@@ -39,6 +43,26 @@ The curriculum is designed to build portfolio evidence for:
 | Security support | `Bulletproof TLS and PKI` and cybersecurity books from Drive |
 | AI support | `AI Engineering`, `AI Systems Performance Engineering`, `Hands-On Large Language Models`, and `Prompt Engineering for LLMs` |
 
+## Cybersecurity track integration
+
+A separate detailed cybersecurity track was not provided by the user. The current cybersecurity track is therefore integrated from the user's requirement to include cybersecurity with networking, plus the security sources in Drive.
+
+The integrated cybersecurity track covers:
+
+- security principles and the CIA triad
+- threat modelling and trust boundaries
+- segmentation and least privilege
+- NAT, firewall rules, and enterprise firewall policy reasoning
+- Cisco, Juniper, and Palo Alto style firewall concepts
+- TLS, certificates, and PKI
+- authentication and authorisation concepts
+- secure configuration and controlled change
+- packet and log evidence
+- network security monitoring
+- incident triage and defensive documentation
+
+Cybersecurity is concentrated in Labs 8, 10, 15, 16, 21, and 24, but security considerations should appear in every lab.
+
 ## Operating method used in every lab
 
 Every lab must be performed as operational engineering work:
@@ -53,7 +77,7 @@ Every lab must be performed as operational engineering work:
 
 ## 24-lab map
 
-| Lab | Base chapter / drill | Lab title | Integrated supporting content |
+| Lab | Base chapter / type | Lab title | Integrated supporting content |
 | ---: | --- | --- | --- |
 | 1 | Chapter 1 - Introduction | Network models and packet flow baseline | OSI/TCP-IP, Linux tools, operational evidence, AI-assisted explanation validation |
 | 2 | Chapter 1 - Introduction | Protocol layering, services, tooling landscape, and troubleshooting method | System/network admin method, service dependency mapping, CMDB/source-of-truth thinking, runbook documentation |
@@ -78,7 +102,11 @@ Every lab must be performed as operational engineering work:
 | 21 | Drill | Segmentation, firewall, NAT, and secure access drill | Chapters 4, 5, 8; cybersecurity; cloud/admin controls; Palo Alto/Cisco/Juniper style policy model |
 | 22 | Drill | Network automation, inventory, and validation drill | Network Programmability and Automation; Python; YAML/JSON; pre/post checks; source-of-truth thinking |
 | 23 | Drill | Incident, runbook, observability, CMDB, and cloud administration drill | Practice of System/Network Administration; Practice of Cloud Administration; tooling landscape assessment; target-state operations |
-| 24 | Drill | Final integrated AI-assisted network operations and tooling strategy drill | All chapters; cybersecurity; automation; observability; CMDB; cost optimisation; AI-assisted analysis with human validation |
+| 24 | Capstone | Enterprise network operations and tooling strategy capstone | All chapters; cybersecurity; automation; observability; CMDB; cost optimisation; AI-assisted analysis with human validation; target-state tooling strategy |
+
+## Capstone rule
+
+Lab 24 is the final capstone. It should require the learner to combine the whole series into one enterprise-style scenario covering design, troubleshooting, security, automation, observability, CMDB/source-of-truth, cost optimisation, and consulting-quality documentation.
 
 ## Reflection rule
 
