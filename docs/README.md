@@ -12,6 +12,7 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 | `lab-placement-guide.md` | Defines which chapter or drill folder each lab belongs in |
 | `lab-completion-workflow.md` | Defines the solve-first workflow and seven-question reflection rule |
 | `two-part-lab-structure.md` | Defines the required two-part structure for every lab |
+| `break-fix-lab-method.md` | Defines the controlled failure, diagnosis, fix, and recovery method used in every lab |
 | `reference-reading-policy.md` | Requires full chapters or full relevant chapter sections when book references are assigned |
 | `cybersecurity-track.md` | Defines the integrated defensive cybersecurity track across the 24 labs |
 | `tooling-and-observability-strategy.md` | Defines tooling, observability, CMDB/source-of-truth, automation, and target-state strategy expectations |
@@ -26,3 +27,5 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 Keep repository-level standards in `docs/`. Keep individual lab write-ups inside the relevant chapter or drill folder.
 
 When a lab references a book chapter, use the full assigned chapter as the reference unit.
+
+Every lab must include controlled lab-only failure and recovery work.
