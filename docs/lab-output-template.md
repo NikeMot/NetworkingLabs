@@ -1,6 +1,6 @@
 # Lab Output Template
 
-Use this template for every networking, cybersecurity, or AI-assisted operations lab. The learner should focus on solving the lab. Documentation is produced from the learner's evidence, commands, outputs, screenshots/summaries, issues encountered, and answers to seven reflection questions.
+Use this template for every networking, cybersecurity, automation, cloud administration, observability, tooling, or AI-assisted operations lab. The learner should focus on solving the lab. Documentation is produced from the learner's evidence, commands, outputs, screenshots/summaries, issues encountered, and answers to seven reflection questions.
 
 ---
 
@@ -32,16 +32,19 @@ Describe the real-world situation this lab simulates.
 
 ## 3. Reference Material
 
-List the sources used for the lab.
+List the full chapters or full relevant chapter sections used for the lab.
 
-| Area | Reference |
+| Area | Full reference chapter or full relevant section |
 | --- | --- |
-| Networking theory | |
+| Primary `Computer Networks` chapter | |
 | Socket programming | |
 | Automation | |
 | Cybersecurity | |
 | AI-assisted operations | |
 | Operations / sysadmin practice | |
+| Cloud administration practice | |
+
+Reference rule: when a lab references a book chapter, use the full assigned chapter as the reference unit, not isolated fragments.
 
 ---
 
@@ -136,7 +139,7 @@ This section proves the lab worked.
 
 ## 13. Diagram
 
-Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, AI-assisted analysis flows, or failure/recovery flows.
+Use this section for network diagrams, traffic-flow diagrams, architecture diagrams, monitoring flows, AI-assisted analysis flows, source-of-truth models, firewall zone models, or failure/recovery flows.
 
 ```mermaid
 flowchart LR
@@ -172,11 +175,26 @@ If there were no issues, write:
 
 Explain the production relevance of this lab.
 
-Cover operational risk, access control, rollback, audit trail, monitoring, repeatability, documentation, reliability, and AI risk where relevant.
+Cover operational risk, access control, firewall policy, segmentation, rollback, audit trail, monitoring, repeatability, documentation, reliability, cost, cloud/admin impact, and AI risk where relevant.
 
 ---
 
-## 17. AI Usage and Validation
+## 17. Tooling, Observability, and Source-of-Truth Notes
+
+Complete this section when relevant.
+
+| Area | Notes |
+| --- | --- |
+| Current tooling | |
+| Tooling gap | |
+| Monitoring / alerting | |
+| Logs / packet evidence | |
+| CMDB or source-of-truth impact | |
+| Automation opportunity | |
+
+---
+
+## 18. AI Usage and Validation
 
 Complete this section if AI was used.
 
@@ -190,13 +208,13 @@ If AI was not used, write:
 
 ---
 
-## 18. Final Outcome
+## 19. Final Outcome
 
 State clearly whether the lab was completed.
 
 ---
 
-## 19. What I Learned
+## 20. What I Learned
 
 Summarise the main learning points from the lab and the learner's reflection answers.
 
@@ -206,7 +224,7 @@ Summarise the main learning points from the lab and the learner's reflection ans
 
 ---
 
-## 20. What I Would Improve in Production
+## 21. What I Would Improve in Production
 
 Summarise the production improvements from the lab and the learner's reflection answers.
 
@@ -215,7 +233,7 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 21. References Used
+## 22. References Used
 
 | Reference | Used for |
 | --- | --- |
@@ -224,15 +242,16 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 22. Completion Checklist
+## 23. Completion Checklist
 
 - [ ] Requirements understood
-- [ ] Reference material reviewed
+- [ ] Full assigned chapter or reference section reviewed
 - [ ] Implementation completed
 - [ ] Verification evidence captured
 - [ ] Issues documented
 - [ ] Decisions documented
-- [ ] Production considerations documented
+- [ ] Security and production considerations documented
+- [ ] Tooling, observability, and source-of-truth notes included where relevant
 - [ ] AI usage documented if relevant
 - [ ] Seven reflection questions answered
 - [ ] Diagram added if useful
@@ -241,12 +260,12 @@ Summarise the production improvements from the lab and the learner's reflection 
 
 ---
 
-## 23. Reflection Questions
+## 24. Reflection Questions
 
 Ask exactly seven reflection questions after the learner has completed the practical work. The learner answers the questions; the answers are then incorporated into the final uploaded lab document.
 
 1. What problem did this lab simulate?
-2. What was the most important networking, security, automation, or AI concept in this lab?
+2. What was the most important networking, security, automation, cloud, observability, tooling, or AI concept in this lab?
 3. What evidence proved that your solution worked?
 4. What issue, mistake, or confusing point did you encounter, and how did you resolve it?
 5. What would you monitor, log, or alert on in production?
