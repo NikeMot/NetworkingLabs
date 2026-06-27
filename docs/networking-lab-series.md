@@ -34,6 +34,12 @@ For Lab 24, Part 1 is the SRE-relevant enterprise capstone scenario.
 
 Part 2 must repeat and apply all topics learned so far, including the current lab. It should produce practical evidence, not just written recall.
 
+## Controlled failure rule
+
+Controlled failure and recovery is the core practical method for the lab series.
+
+Every lab must include a safe, authorised lab-only failure scenario. The learner must observe symptoms, diagnose the issue, apply a fix, validate recovery, and document how the failure would be detected or prevented in production.
+
 ## Target job alignment
 
 The curriculum is designed to build portfolio evidence for:
@@ -87,9 +93,12 @@ Every lab must be performed as operational engineering work:
 
 - define expected state
 - perform a controlled implementation or troubleshooting task
+- introduce a safe lab-only failure scenario
 - collect command, packet, log, configuration, or script evidence
-- validate the final state
+- diagnose the failure using evidence, not guessing
+- apply a fix and validate recovery
 - document issues encountered and fixes applied
+- document prevention, monitoring, alerting, or runbook improvements
 - consider security, reliability, monitoring, rollback, cost, and cloud/admin implications
 - use AI only where helpful, and validate AI output against primary evidence
 
@@ -128,6 +137,6 @@ Lab 24 is the final SRE-relevant capstone. It should require the learner to comb
 
 ## Reflection rule
 
-The learner solves both parts of the lab first. Documentation is handled afterwards from evidence and seven reflection answers.
+The learner solves both parts of the lab first, including the controlled failure and recovery task. Documentation is handled afterwards from evidence and seven reflection answers.
 
 Ask exactly seven reflection questions for every completed lab.
