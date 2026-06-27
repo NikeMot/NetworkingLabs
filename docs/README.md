@@ -6,12 +6,13 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 
 | Document | Purpose |
 | --- | --- |
-| `repository-design-decision.md` | Explains why the repository uses numbered networking, cybersecurity, and AI-assisted operations topic folders |
+| `repository-design-decision.md` | Explains the 24-lab chapter-based repository design |
 | `commit-strategy.md` | Defines how changes should be recorded and reviewed |
-| `lab-output-template.md` | Provides the standard structure for every lab write-up, including AI usage and validation where relevant |
-| `lab-placement-guide.md` | Defines which topic folder each new lab belongs in |
-| `networking-lab-series.md` | Summarises the 72-lab networking, cybersecurity, and AI-assisted operations programme |
+| `lab-output-template.md` | Provides the standard structure for every lab write-up |
+| `lab-placement-guide.md` | Defines which chapter or drill folder each lab belongs in |
+| `lab-completion-workflow.md` | Defines the solve-first workflow and seven-question reflection rule |
+| `networking-lab-series.md` | Summarises the 24-lab Computer Networks based curriculum |
 
 ## Rule
 
-Keep repository-level standards in `docs/`. Keep individual lab write-ups inside the relevant numbered topic folder.
+Keep repository-level standards in `docs/`. Keep individual lab write-ups inside the relevant chapter or drill folder.
