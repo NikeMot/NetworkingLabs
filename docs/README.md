@@ -15,6 +15,7 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 | `reference-reading-policy.md` | Requires full chapters or full relevant chapter sections when book references are assigned |
 | `cybersecurity-track.md` | Defines the integrated defensive cybersecurity track across the 24 labs |
 | `tooling-and-observability-strategy.md` | Defines tooling, observability, CMDB/source-of-truth, automation, and target-state strategy expectations |
+| `sre-capstone-requirements.md` | Defines the SRE-relevant requirements for Lab 24 |
 | `lab-artefact-standards.md` | Defines the required artefacts and evidence standards for labs, drills, and the capstone |
 | `networking-lab-series.md` | Summarises the 24-lab Computer Networks based curriculum |
 | `source-coverage-map.md` | Shows how the requested books and topics are covered across the 24 labs |
