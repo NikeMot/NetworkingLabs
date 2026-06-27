@@ -11,6 +11,7 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 | `lab-output-template.md` | Provides the standard structure for every lab write-up |
 | `lab-placement-guide.md` | Defines which chapter or drill folder each lab belongs in |
 | `lab-completion-workflow.md` | Defines the solve-first workflow and seven-question reflection rule |
+| `two-part-lab-structure.md` | Defines the required two-part structure for every lab |
 | `reference-reading-policy.md` | Requires full chapters or full relevant chapter sections when book references are assigned |
 | `cybersecurity-track.md` | Defines the integrated defensive cybersecurity track across the 24 labs |
 | `tooling-and-observability-strategy.md` | Defines tooling, observability, CMDB/source-of-truth, automation, and target-state strategy expectations |
