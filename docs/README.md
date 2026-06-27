@@ -12,6 +12,7 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 | `lab-placement-guide.md` | Defines which chapter or drill folder each lab belongs in |
 | `lab-completion-workflow.md` | Defines the solve-first workflow and seven-question reflection rule |
 | `networking-lab-series.md` | Summarises the 24-lab Computer Networks based curriculum |
+| `source-coverage-map.md` | Shows how the requested books and topics are covered across the 24 labs |
 
 ## Rule
 
