@@ -13,6 +13,19 @@ The first 16 labs are based on `Computer Networks`, Sixth Edition, Global Editio
 
 After the 16 chapter labs, there are 8 drill labs to practise and combine everything learned.
 
+## Target job alignment
+
+The curriculum is designed to build portfolio evidence for:
+
+- advanced network troubleshooting and diagnostics
+- enterprise LAN, WAN, and Wi-Fi architecture
+- network performance and availability management
+- network security and firewall policy reasoning, including Cisco, Juniper, and Palo Alto style concepts
+- network automation, validation, and source-of-truth thinking
+- observability tooling, management tooling, and CMDB strategy
+- cost optimisation and solution design
+- consulting-quality documentation and cross-team communication
+
 ## Source hierarchy
 
 | Role | Source |
@@ -43,29 +56,29 @@ Every lab must be performed as operational engineering work:
 | Lab | Base chapter / drill | Lab title | Integrated supporting content |
 | ---: | --- | --- | --- |
 | 1 | Chapter 1 - Introduction | Network models and packet flow baseline | OSI/TCP-IP, Linux tools, operational evidence, AI-assisted explanation validation |
-| 2 | Chapter 1 - Introduction | Protocol layering, services, and troubleshooting method | System/network admin method, service dependency mapping, documentation, runbook thinking |
-| 3 | Chapter 2 - Physical Layer | Media, bandwidth, latency, and access network measurement | Cloud connectivity, Wi-Fi/fibre/copper concepts, monitoring and performance baselines |
-| 4 | Chapter 2 - Physical Layer | Loss, throughput, and physical-layer fault isolation | Measurement, troubleshooting records, cloud/admin impact, AI-assisted metric interpretation |
+| 2 | Chapter 1 - Introduction | Protocol layering, services, tooling landscape, and troubleshooting method | System/network admin method, service dependency mapping, CMDB/source-of-truth thinking, runbook documentation |
+| 3 | Chapter 2 - Physical Layer | Media, bandwidth, latency, WAN access, and measurement | Cloud connectivity, Wi-Fi/fibre/copper concepts, monitoring and performance baselines |
+| 4 | Chapter 2 - Physical Layer | Loss, throughput, availability, and physical-layer fault isolation | Measurement, troubleshooting records, cost/performance trade-offs, AI-assisted metric interpretation |
 | 5 | Chapter 3 - Data Link Layer | Frames, MAC addresses, ARP, and local delivery | Packet capture, Linux inspection, evidence handling, secure local network assumptions |
 | 6 | Chapter 3 - Data Link Layer | Error handling, flow control, and link reliability | Reliability thinking, validation, monitoring, operational notes |
 | 7 | Chapter 4 - MAC Sublayer | Ethernet switching, bridges, and VLAN segmentation | Switching, VLANs, segmentation, access control, production design notes |
 | 8 | Chapter 4 - MAC Sublayer | Wireless LANs, shared media, and secure LAN design | Wi-Fi concepts, LAN security, trust boundaries, monitoring, documentation |
 | 9 | Chapter 5 - Network Layer | IP addressing, subnetting, forwarding, and routing | Route tables, Linux networking, cloud routing, controlled change method |
-| 10 | Chapter 5 - Network Layer | NAT, firewalls, path troubleshooting, and cloud network design | NAT/PAT, ACLs, NSGs/security rules, routing evidence, rollback thinking |
+| 10 | Chapter 5 - Network Layer | NAT, firewalls, path troubleshooting, and cloud network design | NAT/PAT, ACLs, NSGs/security rules, Palo Alto/Cisco/Juniper style policy reasoning, rollback thinking |
 | 11 | Chapter 6 - Transport Layer | TCP handshake, connection state, reliability, and congestion | `ss`, packet capture, service health, monitoring, incident evidence |
 | 12 | Chapter 6 - Transport Layer | UDP, TCP sockets, ports, and service exposure | Beej socket programming, Python tools, firewall validation, safe lab-only exposure |
 | 13 | Chapter 7 - Application Layer | DNS, HTTP, TLS, and application dependency mapping | Top-down application model, TLS/PKI, service health checks, runbooks |
-| 14 | Chapter 7 - Application Layer | Application troubleshooting with logs, proxies, and APIs | HTTP tools, reverse proxy concepts, API checks, AI-assisted log summarisation |
-| 15 | Chapter 8 - Network Security | Security principles, TLS/PKI, identity, and least privilege | Bulletproof TLS/PKI, authentication, encryption, secure configuration |
+| 14 | Chapter 7 - Application Layer | Application troubleshooting with logs, proxies, APIs, and observability | HTTP tools, reverse proxy concepts, API checks, AI-assisted log summarisation, tooling gaps |
+| 15 | Chapter 8 - Network Security | Security principles, TLS/PKI, identity, least privilege, and firewall policy | Bulletproof TLS/PKI, authentication, encryption, secure configuration, enterprise firewall policy reasoning |
 | 16 | Chapter 8 - Network Security | Network security monitoring and defensive evidence | Packet/log evidence, baseline detection, incident triage, defensive documentation |
-| 17 | Drill | Subnetting, routing, and path-selection drill | Chapters 1, 5; cloud routing; operational validation |
+| 17 | Drill | Subnetting, routing, and path-selection drill | Chapters 1, 5; WAN/cloud routing; operational validation |
 | 18 | Drill | Packet capture and layered troubleshooting drill | Chapters 1, 3, 4, 5, 6; evidence-first troubleshooting |
 | 19 | Drill | TCP/UDP socket and service exposure drill | Chapter 6; Beej; Python; firewall checks |
 | 20 | Drill | DNS, HTTP, TLS, and application dependency drill | Chapter 7; TLS/PKI; logs; monitoring |
-| 21 | Drill | Segmentation, firewall, NAT, and secure access drill | Chapters 4, 5, 8; cybersecurity; cloud/admin controls |
-| 22 | Drill | Network automation and validation drill | Network Programmability and Automation; Python; YAML/JSON; pre/post checks |
-| 23 | Drill | Incident, runbook, and cloud administration drill | Practice of System/Network Administration; Practice of Cloud Administration; SRE-style operations |
-| 24 | Drill | Final integrated AI-assisted network operations drill | All chapters; cybersecurity; automation; AI-assisted analysis with human validation |
+| 21 | Drill | Segmentation, firewall, NAT, and secure access drill | Chapters 4, 5, 8; cybersecurity; cloud/admin controls; Palo Alto/Cisco/Juniper style policy model |
+| 22 | Drill | Network automation, inventory, and validation drill | Network Programmability and Automation; Python; YAML/JSON; pre/post checks; source-of-truth thinking |
+| 23 | Drill | Incident, runbook, observability, CMDB, and cloud administration drill | Practice of System/Network Administration; Practice of Cloud Administration; tooling landscape assessment; target-state operations |
+| 24 | Drill | Final integrated AI-assisted network operations and tooling strategy drill | All chapters; cybersecurity; automation; observability; CMDB; cost optimisation; AI-assisted analysis with human validation |
 
 ## Reflection rule
 
