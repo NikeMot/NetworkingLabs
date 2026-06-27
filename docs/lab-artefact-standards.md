@@ -6,6 +6,12 @@ This document defines the artefacts that should be produced across the 24-lab Ne
 
 The learner solves the practical lab. Documentation is then created from the learner's evidence and seven reflection answers.
 
+## Break/fix artefact rule
+
+Breaking and fixing systems is the most important practical method in this lab series.
+
+Every lab must include a controlled failure inside an authorised lab environment, followed by diagnosis, fix, recovery validation, and prevention notes.
+
 ## Two-part artefact rule
 
 Every lab must produce artefacts for two parts:
@@ -31,9 +37,10 @@ Every completed lab should include:
 - assumptions
 - Part 1 implementation summary
 - Part 2 cumulative repetition summary
+- break/fix record
 - key commands or tools used
 - files created or changed
-- verification evidence for both parts
+- verification evidence for both parts and recovery
 - cumulative repetition coverage
 - diagram where useful
 - issues encountered
@@ -65,6 +72,7 @@ Good evidence includes:
 - validation reports
 - before/after comparisons
 - cumulative repetition evidence
+- break/fix recovery evidence
 
 Do not include sensitive material in public documentation.
 
@@ -96,6 +104,23 @@ Examples:
 - previous automation or source-of-truth idea reused
 - previous observability or alerting idea reused
 
+## Break/fix evidence standards
+
+Break/fix evidence should prove the learner can diagnose and recover from failure.
+
+Each lab should include:
+
+- expected healthy state
+- controlled failure introduced
+- symptoms observed
+- initial hypothesis
+- diagnostic checks performed
+- evidence collected
+- root cause or likely cause
+- fix applied
+- recovery validation
+- prevention, monitoring, alerting, or runbook improvement
+
 ## Diagram standards
 
 Use diagrams for:
@@ -109,6 +134,7 @@ Use diagrams for:
 - observability data flow
 - CMDB/source-of-truth model
 - automation workflow
+- break/fix flow
 - capstone architecture
 
 Mermaid diagrams are acceptable for Markdown-first documentation.
@@ -252,6 +278,7 @@ Lab 24 should be SRE-relevant and include all major artefact types:
 - technical appendix
 - Part 1 capstone implementation evidence
 - Part 2 full-curriculum repetition evidence
+- break/fix recovery evidence
 - seven reflection answers
 
 Lab 24 should demonstrate both network engineering competence and SRE judgement.
