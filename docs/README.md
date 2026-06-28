@@ -11,6 +11,7 @@ This folder contains repository-level documentation for the NetworkingLabs progr
 | `lab-output-template.md` | Provides the standard structure for every lab write-up |
 | `lab-placement-guide.md` | Defines which chapter or drill folder each lab belongs in |
 | `lab-completion-workflow.md` | Defines the solve-first workflow and seven-question reflection rule |
+| `story-driven-lab-standard.md` | Requires every lab to have a role, story, trigger, stakeholder request, reason, and evidence path |
 | `two-part-lab-structure.md` | Defines the required two-part structure for every lab |
 | `break-fix-lab-method.md` | Defines the controlled failure, diagnosis, fix, and recovery method used in every lab |
 | `official-online-documentation.md` | Defines official online documentation sources and freshness checks for current tool/platform behaviour |
@@ -29,6 +30,4 @@ Keep repository-level standards in `docs/`. Keep individual lab write-ups inside
 
 When a lab references a book chapter, use the full assigned chapter as the reference unit.
 
-Every lab must include controlled lab-only failure and recovery work.
-
-Every lab should check official online documentation for current command, tool, platform, vendor, cloud, API, security, or SRE behaviour where relevant.
+Every lab must include a story, role, trigger, operational reason, controlled lab-only failure and recovery work, and current official documentation checks where relevant.
