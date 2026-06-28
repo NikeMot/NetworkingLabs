@@ -2,15 +2,29 @@
 
 ## Purpose
 
-This document defines how book references are used when creating and completing labs.
+This document defines how book references and online documentation are used when creating and completing labs.
 
 The user has specified that when a lab references a book chapter, the full chapter must be used as the reference unit, not isolated fragments.
 
-## Rule
+## Book chapter rule
 
 When a lab is based on a chapter, the learner should read, use, and reflect on the full assigned chapter.
 
 Do not cherry-pick only a paragraph, diagram, or small subsection and treat it as sufficient coverage for the lab.
+
+## Online documentation rule
+
+Books provide foundations. Official online documentation provides current implementation details.
+
+When a lab uses a command, tool, platform, API, vendor feature, cloud service, security control, or SRE practice, the lab should check official online documentation where possible.
+
+The lab write-up should record:
+
+- online documentation consulted
+- date checked
+- feature, command, or behaviour verified
+- version-specific note where relevant
+- whether the practical evidence matched the documentation
 
 ## Primary book rule
 
@@ -47,6 +61,8 @@ Each lab write-up should record:
 - why that chapter was relevant
 - which concepts from the chapter appeared in the practical task
 - how the practical evidence validated the theory
+- which official online documentation was checked
+- what current behaviour, syntax, or platform detail the online documentation confirmed
 
 ## Evidence standard
 
@@ -66,4 +82,4 @@ The learner must still produce practical evidence such as:
 
 ## AI rule
 
-AI can help summarise, question, compare, or explain the assigned chapter, but AI output is not a substitute for reading the full chapter or validating the lab with primary evidence.
+AI can help summarise, question, compare, or explain the assigned chapter and official documentation, but AI output is not a substitute for reading the full chapter, checking official documentation, or validating the lab with primary evidence.
