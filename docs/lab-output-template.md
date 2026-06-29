@@ -2,6 +2,8 @@
 
 Use this template for every networking, cybersecurity, automation, cloud administration, observability, tooling, or AI-assisted operations lab. The learner should focus on solving the lab. Documentation is produced from the learner's evidence, commands, outputs, screenshots/summaries, issues encountered, and answers to seven reflection questions.
 
+Every normal lab must be scoped for a focused 60-90 minute working session.
+
 Every lab has two required parts:
 
 ```text
@@ -21,6 +23,8 @@ Every lab should check official online documentation where commands, tools, plat
 
 **Lab:**
 
+**Estimated duration:** 60-90 minutes maximum
+
 **Date completed:**
 
 **Topic area:**
@@ -38,6 +42,8 @@ State the purpose of the lab in 2-4 lines.
 ## 2. Scenario
 
 Describe the real-world situation this lab simulates.
+
+The scenario should explain the role, team or organisation, affected service or users, trigger for the work, and why the work matters.
 
 ---
 
@@ -74,12 +80,13 @@ Record official online documentation checked for current command, tool, platform
 
 | ID | Requirement | Status |
 | --- | --- | --- |
-| R1 | Complete Part 1 new content task | Not started / Passed / Failed / Partial |
-| R2 | Complete Part 2 cumulative repetition task | Not started / Passed / Failed / Partial |
-| R3 | Introduce a controlled break/fix failure | Not started / Passed / Failed / Partial |
-| R4 | Diagnose, fix, and validate recovery | Not started / Passed / Failed / Partial |
-| R5 | Check relevant official online documentation | Not started / Passed / Failed / Partial |
-| R6 | Capture verification evidence for both parts | Not started / Passed / Failed / Partial |
+| R1 | Confirm the lab is scoped for 60-90 minutes maximum | Not started / Passed / Failed / Partial |
+| R2 | Complete Part 1 new content task | Not started / Passed / Failed / Partial |
+| R3 | Complete Part 2 cumulative repetition task | Not started / Passed / Failed / Partial |
+| R4 | Introduce a controlled break/fix failure | Not started / Passed / Failed / Partial |
+| R5 | Diagnose, fix, and validate recovery | Not started / Passed / Failed / Partial |
+| R6 | Check relevant official online documentation | Not started / Passed / Failed / Partial |
+| R7 | Capture verification evidence for both parts | Not started / Passed / Failed / Partial |
 
 ---
 
@@ -88,6 +95,8 @@ Record official online documentation checked for current command, tool, platform
 List anything the lab was not allowed to do.
 
 Break/fix work must stay inside an authorised lab environment.
+
+If the core lab begins to exceed 90 minutes, reduce scope rather than expanding the lab.
 
 ---
 
@@ -312,6 +321,7 @@ Summarise the production improvements from the lab and the learner's reflection 
 ## 26. Completion Checklist
 
 - [ ] Requirements understood
+- [ ] Lab scoped for 60-90 minutes maximum
 - [ ] Full assigned chapter or reference section reviewed
 - [ ] Relevant official online documentation checked
 - [ ] Part 1 new content completed
